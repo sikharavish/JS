@@ -3,22 +3,50 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>JavaScript Background Color Switcher</title>
-        <link rel="stylesheet" href="style.css" />
+        <title>Projects Hub</title>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                min-height: 100vh;
+                font-family: Arial, sans-serif;
+                background-color: #f0f0f0;
+            }
+
+            h1 {
+                margin-bottom: 30px;
+                font-size: 2rem;
+            }
+
+            button {
+                padding: 15px 30px;
+                margin: 10px;
+                font-size: 1rem;
+                cursor: pointer;
+                border: 2px solid black;
+                border-radius: 5px;
+                background-color: white;
+                transition: all 0.3s ease;
+            }
+
+            button:hover {
+                transform: scale(1.1);
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            }
+
+            button a {
+                text-decoration: none;
+                color: inherit;
+            }
+        </style>
     </head>
     <body>
-        <div class="button-container">
-            <button id="btn1"><a href="#">Button 1</a></button>
-            <button id="btn2"><a href="#">Button 2</a></button>
-        </div>
-
-        <h1>Color Switcher</h1>
-
-        <button class="button" id="gray" style="background-color: gray;">Gray</button>
-        <button class="button" id="white" style="background-color: white;">White</button>
-        <button class="button" id="blue" style="background-color: blue;">Blue</button>
-        <button class="button" id="yellow" style="background-color: yellow;">Yellow</button>
-        <h2>Click the button to change background color</h2>
-        <script src="learningJS.js"></script>
+        <h1>JavaScript Projects</h1>
+        <button><a href="Project 1 - Coloring the Background/index.html">Project 1</a></button>
+        <script src="test.js"></script>
     </body>
 </html>
