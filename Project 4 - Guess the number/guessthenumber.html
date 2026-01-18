@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number</title>
+    <link rel="stylesheet" href="guessthenumber.css">
+</head>
+<body> <!-- </body> style="background-color:#212121; color: #fff;"-->
+        <div class="button-container">
+            <button id="btn1"><a href="../index.html">Home</a></button>
+        </div>
+        <div class="container">
+            <h1>Guess the Number</h1>
+            <p>I'm thinking of a number between 1 and 100.</p>
+            <p>You have 10 attempts to guess the right number.</p>
+        </br>
+        <form class="form">
+            <label2 for="guessField" id="guess">Guess a Number</label2>
+            <input type="text" id="guessField" class="guessField">
+            <input type="submit" value="Submit Guess" id="subt">
+        </form>
+        </br>
+        <div class="resultParas">
+            <p>Previous Gusses: <span class="guesses"></span></p>
+            </br>
+            <p>Guesses Remaining: <span class="lastResult">10</span></p>
+            <p class="lowOrHi"></p>
+        </div>
+    </div>
+    <script src="guessthenumber.js"></script>
+</body>
+</html>
